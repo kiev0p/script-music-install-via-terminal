@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Script para baixar música do Spotify usando spotDL
+echo "Baixando música do Spotify..."
+spotdl "$1" --output ~/Músicas/SpotifyDownloads
+echo "Download finalizado!"
